@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlExpressionList>
+    <expression1 problem="1 + 1 + 1"></expression1>
+    <expression2 problem="2000 + 4 - 1013"></expression2>
+    <expression3 problem="(13 * (14 - 88)) / 37"></expression3>
+    <expression4 problem="1 * 1"></expression4>
+    <expression5 problem="5 * 5"></expression5>
+    <expression6 problem="29 / 0"></expression6>
+    <expression7 problem="0 / 1"></expression7>
+    <expression8 problem="100 - 100"></expression8>
+    <expression9 problem="0"></expression9>
+</xmlExpressionList>

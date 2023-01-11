@@ -1,0 +1,24 @@
+{
+  "expressions": [
+    {
+      "expression1": "(217827 - 6973) : (1000000 - 996686 + 102113) · 53",
+      "expression2": "92 + 2 · (11 - 587457 : 65273) · 4",
+      "expression3": "31250 · 16 - 523 · 956 + 277732 : 3052"
+    },
+    {
+      "expression1": " 699997 + 84288 : 28096 - (359 - 352) · 99985",
+      "expression2": "((12-10) + 124 / 0) + 1 - 2",
+      "expression3": "4-1"
+    },
+    {
+      "expression1": "0 / 0",
+      "expression2": "3 / 3",
+      "expression3": "10 / 5"
+    },
+    {
+      "expression1": "1 / 0",
+      "expression2": "2 * 2",
+      "expression3": "4 * 9"
+    }
+  ]
+}
