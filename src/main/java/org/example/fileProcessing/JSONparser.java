@@ -23,7 +23,7 @@ public class JSONparser {
             int i = 1;
             while (iterator.hasNext()) {
                 JSONObject exps = iterator.next();
-                String exp = (String) exps.get("expression");
+                String exp = (String) exps.get("expression" + i);
                 i++;
                 list.add(exp);
             }
@@ -38,12 +38,11 @@ public class JSONparser {
 
     public static void writeJSON(ArrayList<String> list) {
         JSONObject obj = new JSONObject();
-        for (int i = 0; i < list.size(); i++) {
-            obj.put("expression" + i, list.get(i));
+        for (int i = 1; i <= list.size(); i++) {
+            obj.put("expression" + i, list.get(i - 1));
         }
         try (FileWriter file = new FileWriter("output.json")) {
             file.write(obj.toJSONString());
-            file.write("\r\n");
             file.flush();
         } catch (IOException e) {
             e.printStackTrace();
