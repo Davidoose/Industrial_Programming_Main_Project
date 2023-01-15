@@ -24,7 +24,7 @@
    * [x] [Библиотека "exp4j"](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExpByLib.java)
   </details>
   
-    >3. [ ] Реализация в виде веб-сервиса
+  3. [ ] Реализация в виде веб-сервиса
 ---
 <details>
     <summary>Sources:</summary>
