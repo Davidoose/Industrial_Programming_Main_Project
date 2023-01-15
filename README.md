@@ -1,31 +1,35 @@
 # Industrial_Programming_Main_Project4
 ## Задачи:
->1. [x] [Парсинг, создание, архивация и шифрование файлов разных типов](https://github.com/Davidoose/Industrial_Programming_Main_Project/tree/master/src/main/java/org/example/fileProcessing)
+>1. [x] [Parsing, creating, archiving and encrypting files of various types](https://github.com/Davidoose/Industrial_Programming_Main_Project/tree/master/src/main/java/org/example/fileProcessing)
 <details>
-    <summary>подробнее</summary>
+    <summary>Details:</summary>
     
-   #### Парсинг и создание
+   #### Parsing and writing
    * [x] [.json](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/JSONparser.java)
    * [x] [.xml](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/XMLparser.java)
    * [x] [.txt](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/TXTparser.java)
-   #### Архивация
+   #### Encryption
    * [x] [.zip](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/JSONparser.java)
-   #### Шифрование
+   #### 
    * [x] DES/ECB/PKCS5Padding
   </details>
   
   >2. [x] [Подсчёт арифметических выражений](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
  
  <details>
-    <summary>Подробнее</summary>
+    <summary>Details:</summary>
     
    #### Парсинг выражений
    * [x] [Самостоятельная реализация](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
    * [x] [Библиотека "exp4j"](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExpByLib.java)
   </details>
   
-4. [ ] Реализация в виде веб-сервиса
-5. [ ] UI реализация
+3. [ ] Реализация в виде веб-сервиса
 
+<details>
+    <summary>Details:</summary>
 
-Идея оформления взята у [Артёма Шатерника](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
+    
+</details>
+
+The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
