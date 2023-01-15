@@ -30,6 +30,5 @@
     <summary>Sources:</summary>
     [parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
 </details>
-
-    The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
-
+ 
+ The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
