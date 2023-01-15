@@ -27,11 +27,9 @@
   3. [ ] In the form of a web service
 ---
 <details>
-    <summary>Sources:</summary>
-
-
+    <summary>Details:</summary>
+    
     [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
-
-</details>
+  </details>
  
  ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for the Read.me design idea
