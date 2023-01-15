@@ -27,7 +27,7 @@
   3. [ ] In the form of a web service
 ---
 <details>
-    <summary>Details:</summary>
+    <summary>Sourses:</summary>
     
    [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
   </details>
