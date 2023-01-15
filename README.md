@@ -38,4 +38,4 @@
    [exp4j](https://www.objecthunter.net/exp4j/)
 </details>
  
- ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for the Read.me design idea
+ ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for opening up opportunities Read.me
