@@ -28,7 +28,7 @@
 ---
 <details>
     <summary>Sources:</summary>
-    * [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
+    [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
 
 </details>
  
