@@ -31,4 +31,4 @@
     [parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
 </details>
  
- ###### The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
+ ###### thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for the design idea
