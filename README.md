@@ -28,7 +28,7 @@
 ---
 <details>
     <summary>Sources:</summary>
-    [parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
+    * [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
 </details>
  
  ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for the design idea
