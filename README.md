@@ -1,8 +1,8 @@
 # Industrial_Programming_Main_Project4
 ## Задачи:
-
+>1. [x] [Парсинг и создание файлов разных типов с поддержкой вложенности](https://github.com/Davidoose/Industrial_Programming_Main_Project/tree/master/src/main/java/org/example/fileProcessing)
 <details>
-    <summary>1. [x] [Парсинг и создание файлов разных типов с поддержкой вложенности](https://github.com/Davidoose/Industrial_Programming_Main_Project/tree/master/src/main/java/org/example/fileProcessing)</summary>
+    <summary>подробнее</summary>
     
    #### Типы файлов
    * [x] .json
