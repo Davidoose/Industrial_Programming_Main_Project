@@ -26,7 +26,7 @@
   
 3. [ ] Реализация в виде веб-сервиса
 ---
->><details>
+<details>
     <summary>Sources:</summary>
 
     
