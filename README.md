@@ -1,5 +1,5 @@
 # Industrial_Programming_Main_Project4
-## Задачи:
+## Necessary links:
 >1. [x] [Parsing, creating, archiving and encrypting files of various types](https://github.com/Davidoose/Industrial_Programming_Main_Project/tree/master/src/main/java/org/example/fileProcessing)
 <details>
     <summary>Details:</summary>
@@ -31,6 +31,6 @@
 
     
 </details>
----
+
 The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
----
+
