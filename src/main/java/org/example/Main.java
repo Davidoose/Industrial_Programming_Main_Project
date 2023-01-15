@@ -16,17 +16,11 @@ import static org.example.fileProcessing.XMLparser.writeXML;
 
 
 public class Main {
-    public static void main(String[] args) throws ParserConfigurationException, TransformerException, IOException {
+    public static void main(String[] args) throws ParserConfigurationException, TransformerException, IOException, SAXException {
         ArrayList<String> list = new ArrayList<>();
-        try {
-            XMLparser.parseXML("input.xml");
-        } catch (ParserConfigurationException | IOException | SAXException e) {
-            e.printStackTrace();
-        }
-
-
+        ArrayList<String> listXML = new ArrayList<>();
+        listXML = XMLparser.parseXML("input.xml");
         //testing parseJSON
-
         list = JSONparser.parseJSON();
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
@@ -34,16 +28,20 @@ public class Main {
         ArrayList<String> ans = new ArrayList<>();
 
         for (int i = 0; i < list.size(); i++) {
-       ans.add(String.valueOf(solvingExpression(list.get(i))));
+            ans.add(String.valueOf(solvingExpression(list.get(i))));
+        }
+        ArrayList<String> ansXML = new ArrayList<>();
+
+        for (int i = 0; i < list.size(); i++) {
+            ansXML.add(String.valueOf(solvingExpression(listXML.get(i))));
         }
         for (int i = 0; i < list.size(); i++) {
             System.out.println(ans.get(i));
         }
-        writeXML("output.xml", ans);
+        writeXML("output.xml", ansXML);
         writeJSON(ans);
 
         archiveFilesZip("output.json", "archive.zip");
-        archiveFilesJar("archive.zip", "archive.jar");
         reArchiveFilesZip("archive.zip");
 
     }

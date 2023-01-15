@@ -87,7 +87,8 @@ public class fileEncryption {
     }
 
 
-    private static void crypt(InputStream in, OutputStream out, Cipher cipher) throws IOException, GeneralSecurityException, ShortBufferException, IllegalBlockSizeException, BadPaddingException {
+
+    private static void crypt(InputStream in, OutputStream out, Cipher cipher) throws IOException, GeneralSecurityException, IllegalBlockSizeException, BadPaddingException {
         int blockSize = cipher.getBlockSize() * 1000;
         int outputSize = cipher.getOutputSize(blockSize);
 
