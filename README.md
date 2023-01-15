@@ -30,6 +30,7 @@
     <summary>Sourses:</summary>
     
    [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4) && [parse](https://youtu.be/8zYrZRju9jI) && [write](https://youtu.be/FsL7ZsyDgf0)(YouTube)
+  
    [Zip archiving](https://youtu.be/NGqcxBSqtzs)
 </details>
  
