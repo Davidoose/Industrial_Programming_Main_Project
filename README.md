@@ -25,11 +25,12 @@
   </details>
   
 3. [ ] Реализация в виде веб-сервиса
-
+---
 >><details>
-    <summary>Details:</summary>
+    <summary>Sources:</summary>
 
     
 </details>
-
+---
 The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
+---
