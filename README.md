@@ -11,7 +11,7 @@
    #### Encryption
    * [x] [.zip](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/JSONparser.java)
    #### 
-   * [x] DES/ECB/PKCS5Padding
+   * [x] AES/ECB/PKCS5Padding
   </details>
   
   >2. [x] [Counting arithmetic expressions](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
