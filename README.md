@@ -29,7 +29,7 @@
 <details>
     <summary>Sourses:</summary>
     
-   [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)
+   [Parse HTML](https://www.youtube.com/watch?v=ONfqhT_oua4)(YouTube)
   </details>
  
  ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for the Read.me design idea
