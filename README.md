@@ -13,7 +13,7 @@
    #### Шифрование
    * [x] DES/ECB/PKCS5Padding
   </details>
-2. [x] [Подсчёт арифметических выражений](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
+>2. [x] [Подсчёт арифметических выражений](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
  
  <details>
     <summary>Подробнее</summary>
