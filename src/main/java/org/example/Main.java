@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import static org.example.expProcessing.ProccesExp.solvingExpression;
+import static org.example.expProcessing.ProccesExpByLib.solvingExpressionByLib;
 import static org.example.fileProcessing.ArchivingFiles.*;
 import static org.example.fileProcessing.JSONparser.writeJSON;
 import static org.example.fileProcessing.XMLparser.writeXML;
@@ -33,7 +34,7 @@ public class Main {
         ArrayList<String> ansXML = new ArrayList<>();
 
         for (int i = 0; i < list.size(); i++) {
-            ansXML.add(String.valueOf(solvingExpression(listXML.get(i))));
+            ansXML.add(String.valueOf(solvingExpressionByLib(listXML.get(i))));
         }
         for (int i = 0; i < list.size(); i++) {
             System.out.println(ans.get(i));

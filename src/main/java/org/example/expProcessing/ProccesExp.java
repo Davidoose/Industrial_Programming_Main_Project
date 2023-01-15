@@ -6,8 +6,7 @@ public class ProccesExp {
     public static String solvingExpression(String expression) {
         char[] tokens = expression.toCharArray();
 
-        Stack<Integer> values = new
-                Stack<Integer>();
+        Stack<Double> values = new Stack<>();
 
         Stack<Character> ops = new
                 Stack<Character>();
@@ -25,15 +24,15 @@ public class ProccesExp {
                         tokens[i] >= '0' &&
                         tokens[i] <= '9')
                     sbuf.append(tokens[i++]);
-                values.push(Integer.valueOf((sbuf.
-                        toString())));
+                values.push(Double.valueOf(sbuf.
+                        toString()));
                 i--;
             } else if (tokens[i] == '(')
                 ops.push(tokens[i]);
 
             else if (tokens[i] == ')') {
                 while (ops.peek() != '(')
-                    values.push(Integer.valueOf((applyOp(ops.pop(),
+                    values.push(Double.valueOf((applyOp(ops.pop(),
                             values.pop(),
                             values.pop()))));
                 ops.pop();
@@ -44,7 +43,7 @@ public class ProccesExp {
                 while (!ops.empty() &&
                         hasPrecedence(tokens[i],
                                 ops.peek()))
-                    values.push(Integer.valueOf((applyOp(ops.pop(),
+                    values.push(Double.valueOf((applyOp(ops.pop(),
                             values.pop(),
                             values.pop()))));
 
@@ -53,11 +52,11 @@ public class ProccesExp {
         }
 
         while (!ops.empty()) {
-            values.push(Integer.valueOf((applyOp(ops.pop(),
+            values.push(Double.valueOf((applyOp(ops.pop(),
                     values.pop(),
                     values.pop()))));
         }
-        int temp = (values.pop());
+        Double temp = (values.pop());
         if (temp == 1813) {
             return "Error due to division by zero";
         } else {
@@ -75,7 +74,7 @@ public class ProccesExp {
             return true;
     }
 
-    public static String applyOp(char sign, Integer b, Integer a) {
+    public static String applyOp(char sign, Double b, Double a) {
         switch (sign) {
             case '+':
                 return String.valueOf(a + b);
