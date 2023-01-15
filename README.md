@@ -8,9 +8,9 @@
    * [x] [.json](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/JSONparser.java)
    * [x] [.xml](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/XMLparser.java)
    * [x] [.txt](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/TXTparser.java)
-   #### архивация
+   #### Архивация
    * [x] [.zip](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/JSONparser.java)
-   #### Типы шифрования
+   #### Шифрование
    * [x] DES/ECB/PKCS5Padding
   </details>
 2. [x] [Подсчёт арифметических выражений](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
@@ -19,8 +19,8 @@
     <summary>Подробнее</summary>
     
    #### Парсинг выражений
-   * [x] Самостоятельно, с регулярными выражениями
-   * [x] С использованием библиотеки "exp4j"
+   * [x] [Самостоятельно](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
+   * [x] [<Библиотека "exp4j"](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExpByLib.java)
   </details>
   
 4. [ ] Реализация в виде веб-сервиса
