@@ -31,6 +31,5 @@
 
     
 </details>
----
-The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
+###### The idea of the design was taken from [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project)
 
