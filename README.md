@@ -14,6 +14,8 @@
    * [x] [AES/ECB/PKCS5Padding](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/fileProcessing/fileEncryption.java)
   </details>
 
+---
+
 >2. [x] [Counting arithmetic expressions](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing)
  
  <details>
@@ -23,6 +25,8 @@
    * [x] [Own implementation](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExp.java)
    * [x] [Library "exp4j"](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/src/main/java/org/example/expProcessing/ProccesExpByLib.java)
   </details>
+  
+  ---
   
    >3. [x] [Unit Test](https://github.com/Davidoose/Industrial_Programming_Main_Project/tree/master/src/test/java/org/example/expProcessing)
 ---
