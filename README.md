@@ -27,7 +27,8 @@
    >3. [x] [Unit Test](https://github.com/Davidoose/Industrial_Programming_Main_Project/tree/master/src/test/java/org/example/expProcessing)
 ---
    >4. [ ] UI
-   >5  [ ] Web Service
+   
+   >5.  [ ] Web Service
 ---
 <details>
     <summary>Sourses:</summary>
