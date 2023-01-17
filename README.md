@@ -32,7 +32,14 @@
 ---
    >4. [ ] UI
    
-   >5.  [ ] Web Service
+   >5. [x] Web Service
+<details>
+    <summary>Details:</summary>
+    Through the web service, you can solve expressions
+    
+![Can solve expressions](https://github.com/Davidoose/Industrial_Programming_Main_Project/blob/master/Resource/img_1.png)
+</details>
+
 ---
 <details>
     <summary>Sourses:</summary>
