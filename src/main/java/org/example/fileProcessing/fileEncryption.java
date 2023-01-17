@@ -6,9 +6,7 @@ import java.security.*;
 
 public class fileEncryption {
     private static String type = "AES";
-
-
-    public void encrypt(String srcFile, String destFile, String privateKey) throws GeneralSecurityException, IOException, NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
+    public static void encryptFile(String srcFile, String destFile, String privateKey) throws GeneralSecurityException, IOException {
         Key key = getKey(privateKey);
         Cipher cipher = Cipher.getInstance(type + "/ECB/PKCS5Padding");
         cipher.init(Cipher.ENCRYPT_MODE, key);
@@ -41,7 +39,7 @@ public class fileEncryption {
     }
 
 
-    public void decrypt(String srcFile, String destFile, String privateKey) throws GeneralSecurityException, IOException, NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException {
+    public static void decryptFile(String srcFile, String destFile, String privateKey) throws GeneralSecurityException, IOException {
         Key key = getKey(privateKey);
         Cipher cipher = Cipher.getInstance(type + "/ECB/PKCS5Padding");
         cipher.init(Cipher.DECRYPT_MODE, key);
@@ -68,18 +66,18 @@ public class fileEncryption {
     }
 
 
-    private File mkdirFiles(String filePath) throws IOException {
+    private static File mkdirFiles(String filePath) throws IOException {
         File file = new File(filePath);
-        if (!file.getParentFile().exists()) {
-            file.getParentFile().mkdirs();
-        }
+//        if (!file.getParentFile().exists()) {
+//            file.getParentFile().mkdirs();
+//        }
         file.createNewFile();
 
         return file;
     }
 
 
-    private static Key getKey(String secret) throws GeneralSecurityException, NoSuchAlgorithmException {
+    private static Key getKey(String secret) throws GeneralSecurityException  {
         KeyGenerator kgen = KeyGenerator.getInstance(type);
         kgen.init(128, new SecureRandom(secret.getBytes()));
         SecretKey secretKey = kgen.generateKey();

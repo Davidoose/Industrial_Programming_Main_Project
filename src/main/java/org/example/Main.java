@@ -7,17 +7,20 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.util.ArrayList;
 
 import static org.example.expProcessing.ProccesExp.solvingExpression;
 import static org.example.expProcessing.ProccesExpByLib.solvingExpressionByLib;
-import static org.example.fileProcessing.ArchivingFiles.*;
+import static org.example.fileProcessing.ArchivingFiles.archiveFilesZip;
+import static org.example.fileProcessing.ArchivingFiles.reArchiveFilesZip;
 import static org.example.fileProcessing.JSONparser.writeJSON;
 import static org.example.fileProcessing.XMLparser.writeXML;
-
+import static org.example.fileProcessing.fileEncryption.decryptFile;
+import static org.example.fileProcessing.fileEncryption.encryptFile;
 
 public class Main {
-    public static void main(String[] args) throws ParserConfigurationException, TransformerException, IOException, SAXException {
+    public static void main(String[] args) throws ParserConfigurationException, TransformerException, IOException, SAXException, GeneralSecurityException {
         ArrayList<String> list = new ArrayList<>();
         ArrayList<String> listXML = new ArrayList<>();
         listXML = XMLparser.parseXML("input.xml");
@@ -45,5 +48,7 @@ public class Main {
         archiveFilesZip("output.json", "archive.zip");
         reArchiveFilesZip("archive.zip");
 
+        encryptFile("output.xml", "encrypt.axx", "E)H@McQeThWmZq4t");
+        decryptFile("encrypt.axx", "decrypt.xml", "E)H@McQeThWmZq4t");
     }
 }
