@@ -48,6 +48,8 @@
    [exp4j](https://www.objecthunter.net/exp4j/)
    
    [Guide to the design of Markdown files](https://gist.github.com/Jekins/2bf2d0638163f1294637)
+    
+   [Spring/Web Service](https://spring-projects.ru/guides/rest-service/) 
 </details>
  
  ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for opening up opportunities Markdown
