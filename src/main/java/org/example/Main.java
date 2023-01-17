@@ -35,7 +35,6 @@ public class Main {
             ans.add(String.valueOf(solvingExpression(list.get(i))));
         }
         ArrayList<String> ansXML = new ArrayList<>();
-
         for (int i = 0; i < list.size(); i++) {
             ansXML.add(String.valueOf(solvingExpressionByLib(listXML.get(i))));
         }

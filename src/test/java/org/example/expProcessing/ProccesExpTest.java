@@ -9,11 +9,10 @@ import static org.example.expProcessing.ProccesExpByLib.solvingExpressionByLib;
 public class ProccesExpTest extends TestCase {
 
     public void testSolvingExpression1() {
-        String exp = new String("(1 + 2) * (3 + 4)");
+        String exp = new String("(1 + 2) * ((12/4) + 4)");
         String actual = solvingExpression(exp);
         Assert.assertEquals("21.0", actual);
     }
-
 
     public void testSolvingExpression2() {
         String exp1 = new String("(13 * (14 - 88)) / 37");
