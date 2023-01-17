@@ -8,7 +8,7 @@ public class ProccesExpByLib {
         Expression libExp = new ExpressionBuilder(expression).build();
         try {
             String result = String.valueOf(libExp.evaluate());
-            return String.valueOf(result);
+            return result;
         } catch (ArithmeticException e) {
             return "Error due to division by zero";
         }
