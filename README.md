@@ -57,6 +57,8 @@
    [Guide to the design of Markdown files](https://gist.github.com/Jekins/2bf2d0638163f1294637)
     
    [Spring/Web Service](https://spring-projects.ru/guides/rest-service/) 
+    
+   [Counting expressions](https://en.wikipedia.org/wiki/Shunting_yard_algorithm)
 </details>
  
  ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for opening up opportunities Markdown
