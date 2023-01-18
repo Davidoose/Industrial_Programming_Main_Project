@@ -60,5 +60,3 @@
     
    [Counting expressions](https://en.wikipedia.org/wiki/Shunting_yard_algorithm)
 </details>
- 
- ###### Thanks to [Artem Shaternik](https://github.com/ArtsiomShatsernik/3rd-semester-java-project) for opening up opportunities Markdown
